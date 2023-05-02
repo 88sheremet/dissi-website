@@ -1,115 +1,130 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dissi</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
-    <header>
-        <div >
-            <ul>
-                <li>
-                     <svg class="mobile-menu-btn__icon" width="40" height="40">
-                    <use href="./img/sprite.svg#language"></use>
-                </svg>
-                <p>ENG</p>
-                </li>
-            <li>
-                   <svg class="mobile-menu-btn__icon" width="40" height="40">
-                    <use href="./img/sprite.svg#instagram"></use>
-                </svg>
-                <p>dissiua</p>
-            </li>
-            <li>
-                   <svg class="mobile-menu-btn__icon" width="40" height="40">
-                    <use href="./img/sprite.svg#time"></use>
-                </svg>
-                <p>9-21</p>
-            </li>
-            <li>
-                   <svg class="mobile-menu-btn__icon" width="40" height="40">
-                    <use href="./img/sprite.svg#phone"></use>
-                </svg>
-                <p>093 207 7484</p>
-            </li>
-            <li>
-                   <svg class="mobile-menu-btn__icon" width="40" height="40">
-                    <use href="./img/sprite.svg#map"></use>
-                </svg>
-                <p>М. Бойчука 17а, Печерськ Плаза (м.Дружби Народів)</p>
-            </li>
-        </ul>
-        <button type="button">Показати на мапі</button>
-        </div>
-
-        <nav>
-            <a href=""> 
-                <svg class="mobile-menu-btn__icon" width="40" height="40">
-                <use href="./img/sprite.svg#dissi"></use>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/sass/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <ul class="header__description">
+          <li class="header__description-item">
+            <svg class="header__icon" width="15" height="15">
+              <use href="./img/sprite.svg#language"></use>
             </svg>
+            <p class="header__description-text">ENG</p>
+          </li>
+          <li class="header__description-item">
+            <svg class="header__icon" width="15" height="15">
+              <use href="./img/sprite.svg#instagram"></use>
+            </svg>
+            <p class="header__description-text">dissiua</p>
+          </li>
+          <li class="header__description-item">
+            <svg class="header__icon" width="15" height="15">
+              <use href="./img/sprite.svg#time"></use>
+            </svg>
+            <p class="header__description-text">9-21</p>
+          </li>
+          <li class="header__description-item">
+            <svg class="header__icon" width="15" height="15">
+              <use href="./img/sprite.svg#phone"></use>
+            </svg>
+            <p class="header__description-text">093 207 7484</p>
+          </li>
+         
+        </ul>
+        <!-- <div class="adress-container">
+            <svg class="header__icon" width="15" height="15">
+              <use href="./img/sprite.svg#map"></use>
+            </svg>
+            <p class="adress-container__adress">вул. Бойчука 17а, Печерськ Плаза (м.Дружби Народів)</p>
+            <a type="button" class="adress-container__button">Показати на мапі</a>
+          </div> -->
+        <div class="adress-container">
+           <div class="adress-container__wrapper">
+            <svg class="header__icon" width="15" height="15">
+                <use href="./img/sprite.svg#map"></use>
+              </svg>
+              <p class="adress-container__adress">вул. Бойчука 17а, Печерськ Плаза</p>
+           </div>
+            <a type="button" class="adress-container__button">Показати на мапі</a>
+          </div>
+       
+      </div>
+      <div class="menu">
+        <a href="">
+          <svg class="menu__icon" width="88" height="31"  fill="#3D51C1">
+            <use href="./img/sprite.svg#dissi"></use>
+          </svg>
         </a>
-            <ul>
-                <li>
-                    <a href="">
-ПРО НАС 
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-ПОСЛУГИ
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-ГАРАНТІЯ ТА БЕЗПЕКА
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-ГАЛЕРЕЯ
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <button>ОНЛАЙН-ЗАПИС</button>
+        <button class="menu__button">ОНЛАЙН-ЗАПИС</button>
+     
+        <svg class="menu__icon" width="27" height="27"  fill="#3D51C1">
+            <use href="./img/sprite.svg#hamburger"></use>
+          </svg>
+      </div>
+      <nav class="header__nav">
+       
+        <ul class="header__navlist">
+          <li>
+            <a href=""> ПРО НАС </a>
+          </li>
+          <li>
+            <a href=""> ПОСЛУГИ </a>
+          </li>
+          <li>
+            <a href=""> ГАРАНТІЯ ТА БЕЗПЕКА </a>
+          </li>
+          <li>
+            <a href=""> ГАЛЕРЕЯ </a>
+          </li>
+        </ul>
+      </nav>
+      
     </header>
     <main>
-        <section>
-            <h1><span>DISSI</span> - це сучасна лампова студія манікюру та брів</h1>
+      <section>
+        <h1><span>DISSI</span> - це сучасна лампова студія манікюру та брів</h1>
         <p>Ми обожнюємо дружити і раді бачити нові обличчя</p>
-        <button>
-            ДЕТАЛЬНІШЕ
-        </button>
-        </section>
-        <section>
-           <div>
-             <img src="" alt="">
-            <p></p>
-           </div>
-           <div>
-            <img src="" alt="">
-           <p></p>
-          </div>
-        </section>
-<section>
-    <h2>ГАРАНТІЯ ТА БЕЗПЕКА</h2>
-    <img></img>
-    <p>Наші майстри- професіонали, тому дуже ретельно ставляться до твого здоров'я. 
-        З нами ти можеш відпочивати і не перейматись щодо безпеки. Інструменти проходять 4-етапну дезінфекцію – тому розслабся і сміливо обирай колір для наступного манікюру💜</p>
-    <button>Детальніше</button>
-    <button>Онлайн-запис</button>
-</section>
-<section>
-    <h2>Галерея</h2>
-    <button>Більше фото</button>
-</section>
+        <button>ДЕТАЛЬНІШЕ</button>
+      </section>
+      <section>
+        <div>
+          <img src="" alt="" />
+          <p></p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <p></p>
+        </div>
+      </section>
+      <section>
+        <h2>ГАРАНТІЯ ТА БЕЗПЕКА</h2>
+        <!-- <img></img> -->
+        <p>
+          Наші майстри- професіонали, тому дуже ретельно ставляться до твого
+          здоров'я. З нами ти можеш відпочивати і не перейматись щодо безпеки.
+          Інструменти проходять 4-етапну дезінфекцію – тому розслабся і сміливо
+          обирай колір для наступного манікюру💜
+        </p>
+        <button>Детальніше</button>
+        <button>Онлайн-запис</button>
+      </section>
+      <section>
+        <h2>Галерея</h2>
+        <button>Більше фото</button>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
