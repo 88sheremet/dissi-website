@@ -1,0 +1,41 @@
+.security {
+  padding: 0 16px;
+}
+
+.security__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 40px;
+  color: #140b38;
+}
+
+.security__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 133%;
+
+  text-align: center;
+margin-top: 24px;
+margin-bottom: 32px;
+  color: #000000;
+}
+
+.security__button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #1f1f23;
+  padding: 13px 19px;
+  border: 1px solid #1f1f23;
+}
