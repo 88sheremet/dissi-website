@@ -1,11 +1,15 @@
 .header {
   font-family: "Lato";
-  position: relative;
-  background-image: url("../img/mobile/hero.png");
-  height: 650px;
+  // position: relative;
+  // background-image: url("../../img/mobile/hero.png");
+  // height: 650px;
   // background-size: 360px 650px ;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
+  position: absolute;
+
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .hero__img {
@@ -67,13 +71,11 @@
 .menu {
   display: flex;
   align-items: center;
-  // justify-content: center;
+  justify-content: space-evenly;
   gap: 25px;
   background: rgba(255, 255, 255, 0.42);
   padding: 27px 15px;
-  position: absolute;
-  top: 0;
-  width: 100%;
+  
 }
 
 .menu__button {

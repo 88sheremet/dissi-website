@@ -1,11 +1,18 @@
 .hero{
-  // background-image: url('../../img/mobile/hero.png');
-  // background-size: cover;
-  // background-repeat: no-repeat;
-//   width: 360px;
-// height: 650px;
+  background-image: url('../../img/mobile/hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // width: 360px;
+height: 650px;
+position: relative;
 }
-
+.hero__container{
+  position: absolute;
+  top: 36%;
+  // left: 50%;
+  // z-index: 10;
+  box-sizing: border-box;
+}
 
 
 .hero__title{
@@ -14,8 +21,10 @@ font-style: normal;
 font-weight: 300;
 font-size: 24px;
 line-height: 29px;
-
+margin-bottom: 26px;
 color: #FFFFFF;
+text-align: center;
+padding: 0 32px;
 }
 
 .hero__text{
@@ -25,6 +34,28 @@ font-weight: 300;
 font-size: 18px;
 line-height: 22px;
 text-align: center;
+margin-bottom: 52px;
+color: #FFFFFF;
+padding: 0 20px;
+}
+
+.hero__link{
+  // text-align: center;
+  padding: 14px 20px;
+display: block;
+margin: 0 auto;
+width: 133px;
+// height: 45px;
+border: 1px solid #FFFFFF;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+text-align: center;
+
 
 color: #FFFFFF;
+
 }
