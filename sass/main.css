@@ -76,7 +76,7 @@ a {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
-  color: #5D41BA;
+  color: #5d41ba;
 }
 
 .header__navlist {
@@ -104,7 +104,7 @@ a {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-  color: #5D41BA;
+  color: #5d41ba;
 }
 
 .menu {
@@ -121,14 +121,14 @@ a {
 .menu__button {
   width: 156px;
   height: 45px;
-  background: #1F1F23;
+  background: #1f1f23;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .adress-container__wrapper {

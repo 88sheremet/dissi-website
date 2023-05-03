@@ -1,52 +1,51 @@
-.header{
-  font-family: 'Lato';
+.header {
+  font-family: "Lato";
   position: relative;
-  background-image: url('../../img/mobile/hero.png');
+  background-image: url("../../img/mobile/hero.png");
   height: 650px;
   // background-size: 360px 650px ;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero__img{
-  
+.hero__img {
 }
 
-.header__description{
+.header__description {
   display: flex;
   align-items: center;
   // gap: 30px;
   justify-content: space-between;
 }
 
-.header__description-item{
+.header__description-item {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.header__description-text{
-  font-family: 'Fredoka';
-font-style: normal;
-font-weight: 500;
-font-size: 10px;
-line-height: 12px;
-color: #5D41BA;
+.header__description-text {
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #5d41ba;
 }
 
-.header__navlist{
+.header__navlist {
   display: none;
 }
 
-.adress-container__adress{
+.adress-container__adress {
   font-weight: 400;
-font-size: 10px;
-line-height: 12px;
+  font-size: 10px;
+  line-height: 12px;
 
-color: #000000;
+  color: #000000;
 }
 
-.adress-container{
+.adress-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,45 +57,41 @@ color: #000000;
   padding-bottom: 8px;
 }
 
-.adress-container__button{
+.adress-container__button {
   font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-color: #5D41BA;
+  font-size: 10px;
+  line-height: 12px;
+  color: #5d41ba;
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
   // justify-content: center;
   gap: 25px;
   background: rgba(255, 255, 255, 0.42);
- padding: 27px 15px;
- position: absolute;
- top: 0;
- width: 100%;
+  padding: 27px 15px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
-.menu__button{
+.menu__button {
   width: 156px;
   height: 45px;
-  background: #1F1F23;
-  font-family: 'Lato';
+  background: #1f1f23;
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
- border: none;
-  color: #FFFFFF;
-// margin-top: 11px;
-// margin-bottom: 31px;
+  border: none;
+  color: #ffffff;
+
 }
 
-.menu__icon{
-  // color: linear-gradient(89.84deg, #6143B6 0.1%, #3D51C1 45.17%, #C270D2 101.9%);
-}
 
-.adress-container__wrapper{
+.adress-container__wrapper {
   display: flex;
   align-items: center;
 }
