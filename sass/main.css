@@ -52,7 +52,7 @@ a {
 .header {
   font-family: "Lato";
   position: relative;
-  background-image: url("../../img/mobile/hero.png");
+  background-image: url("../img/mobile/hero.png");
   height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
