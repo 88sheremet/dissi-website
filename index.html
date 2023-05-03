@@ -5,18 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dissi</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@400;500;600;800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Lato:ital,wght@0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/sass/main.css" />
   </head>
   <body>
     <header class="header">
-      <div>
-        <ul class="header__description">
+      <!-- <img src="./img/mobile/hero.png" alt="" class="header__img"> -->
+      <!-- <div> -->
+        <!-- <ul class="header__description">
           <li class="header__description-item">
             <svg class="header__icon" width="15" height="15">
               <use href="./img/sprite.svg#language"></use>
@@ -42,7 +40,7 @@
             <p class="header__description-text">093 207 7484</p>
           </li>
          
-        </ul>
+        </ul> -->
         <!-- <div class="adress-container">
             <svg class="header__icon" width="15" height="15">
               <use href="./img/sprite.svg#map"></use>
@@ -50,7 +48,7 @@
             <p class="adress-container__adress">вул. Бойчука 17а, Печерськ Плаза (м.Дружби Народів)</p>
             <a type="button" class="adress-container__button">Показати на мапі</a>
           </div> -->
-        <div class="adress-container">
+        <!-- <div class="adress-container">
            <div class="adress-container__wrapper">
             <svg class="header__icon" width="15" height="15">
                 <use href="./img/sprite.svg#map"></use>
@@ -58,18 +56,18 @@
               <p class="adress-container__adress">вул. Бойчука 17а, Печерськ Плаза</p>
            </div>
             <a type="button" class="adress-container__button">Показати на мапі</a>
-          </div>
+          </div> -->
        
-      </div>
+      <!-- </div> -->
       <div class="menu">
         <a href="">
-          <svg class="menu__icon" width="88" height="31"  fill="#3D51C1">
+          <svg class="menu__icon" width="88" height="31"  >
             <use href="./img/sprite.svg#dissi"></use>
           </svg>
         </a>
         <button class="menu__button">ОНЛАЙН-ЗАПИС</button>
      
-        <svg class="menu__icon" width="27" height="27"  fill="#3D51C1">
+        <svg class="menu__icon" width="27" height="27"  >
             <use href="./img/sprite.svg#hamburger"></use>
           </svg>
       </div>
@@ -93,10 +91,12 @@
       
     </header>
     <main>
-      <section>
-        <h1><span>DISSI</span> - це сучасна лампова студія манікюру та брів</h1>
-        <p>Ми обожнюємо дружити і раді бачити нові обличчя</p>
-        <button>ДЕТАЛЬНІШЕ</button>
+      <section class="hero">
+       
+        <h1 class="hero__title">DISSI - це сучасна студія манікюру та брів</h1>
+        <p class="hero__text">Ми обожнюємо створювати для вас красу і раді бачити нові обличчя
+          у нашому затишному просторі!</p>
+        <a href="" class="hero__link">ДЕТАЛЬНІШЕ</a>
       </section>
       <section>
         <div>
