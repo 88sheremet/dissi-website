@@ -128,16 +128,34 @@
           Інструменти проходять 4-етапну дезінфекцію – тому розслабся і сміливо
           обирай колір для наступного манікюру💜
         </p>
-       <div>
-        <a href="" class="security__button">ДЕТАЛЬНІШЕ</a>
-        <button class="menu__button">ОНЛАЙН-ЗАПИС</button>
-       </div>
+        <div>
+          <a href="" class="security__button">ДЕТАЛЬНІШЕ</a>
+          <button class="menu__button">ОНЛАЙН-ЗАПИС</button>
+        </div>
       </section>
-      <section>
-        <h2>Галерея</h2>
-        <button>Більше фото</button>
+      <section class="gallery">
+        <h2 class="gallery__title">Галерея</h2>
+        <div class="slider">
+          <div class="slider-line">
+            <img src="./img/mobile/gallery1.png" alt="" />
+            <img src="./img/mobile/gallery2.png" alt="" />
+            <img src="./img/mobile/gallery3.png" alt="" />
+          </div>
+        </div>
+        <div class="gallery__button-container">
+          <svg class="prev" width="53" height="27">
+            <use href="./img/sprite.svg#arrow-left-black"></use>
+          </svg>
+
+          <a href="" class="gallery__link">Більше фото</a>
+
+          <svg class="next" width="53" height="27">
+            <use href="./img/sprite.svg#arrow-right-black"></use>
+          </svg>
+        </div>
       </section>
     </main>
     <footer></footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
