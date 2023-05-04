@@ -310,4 +310,106 @@ a {
   align-items: center;
   justify-content: center;
   gap: 54px;
+}
+
+.reviews {
+  height: 566px;
+  background-image: url("../img/mobile/reviews.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviews__title {
+  padding-top: 70px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+
+.reviews__name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 131.02%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.reviews__rating {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.reviews__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 131.02%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.reviews__buttons {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.reviews__text-writting {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+}
+
+.reviews__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 70px;
+}
+
+.reviews__there {
+  padding: 14px 54px;
+  border: 1px solid #FFFFFF;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.reviews__order {
+  padding: 14px 20px;
+  background: #FFFFFF;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F1F23;
 }/*# sourceMappingURL=main.css.map */

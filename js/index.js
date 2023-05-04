@@ -8,7 +8,7 @@ sliderLine.style.right = "100px";
 
 prevBtn.addEventListener("click", () => {
   let offset = 0;
-  offset = offset - 100;
+  offset = offset - 93;
   if ((offset = 0)) {
     offset = 0;
   }
@@ -17,9 +17,9 @@ prevBtn.addEventListener("click", () => {
 
 nextBtn.addEventListener("click", () => {
   let offset = 0;
-  offset = offset + 100;
-  if ((offset = 200)) {
-    offset = 200;
+  offset = offset + 93;
+  if ((offset = 185)) {
+    offset = 185;
   }
   sliderLine.style.right = offset + "px";
 });
