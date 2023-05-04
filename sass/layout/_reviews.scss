@@ -26,6 +26,8 @@ line-height: 131.02%;
 text-align: center;
 margin-bottom: 20px;
 color: #FFFFFF;
+
+width: 360px;
 }
 
 .reviews__rating{
@@ -46,6 +48,8 @@ line-height: 131.02%;
 text-align: center;
 color: #FFFFFF;
 margin-bottom: 40px;
+padding-left: 11px;
+    padding-right: 11px;
 }
 
 .reviews__buttons{
@@ -106,3 +110,21 @@ text-transform: uppercase;
 
 color: #1F1F23;
 }
+
+.reviews__slider {
+  //   border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    // margin-bottom: 20px;
+  }
+  
+  .reviews__slider-list {
+    display: flex;
+    // gap: 15px;
+    position: relative;
+  }
+
+  .reviews__slider-card{
+    position: relative;
+    // position: relative;
+  }

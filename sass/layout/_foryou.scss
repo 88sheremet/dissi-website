@@ -1,0 +1,35 @@
+.for-you{
+    padding: 100px 16px;
+}
+
+.for-you__title{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 275;
+font-size: 28px;
+line-height: 34px;
+
+text-transform: uppercase;
+
+text-align: center;
+margin-bottom: 40px;
+color: #140B38;
+}
+
+.for-you__list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.for-you__text{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 131.02%;
+text-align: center;
+letter-spacing: -0.02em;
+color: #140B38;
+    margin-top: 16px;
+}
