@@ -4,11 +4,11 @@ const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 let count = 0;
 
-sliderLine.style.right = "110px";
+sliderLine.style.right = "100px";
 
 prevBtn.addEventListener("click", () => {
   let offset = 0;
-  offset = offset - 110;
+  offset = offset - 100;
   if ((offset = 0)) {
     offset = 0;
   }
@@ -17,9 +17,9 @@ prevBtn.addEventListener("click", () => {
 
 nextBtn.addEventListener("click", () => {
   let offset = 0;
-  offset = offset + 110;
-  if ((offset = 220)) {
-    offset = 220;
+  offset = offset + 100;
+  if ((offset = 200)) {
+    offset = 200;
   }
   sliderLine.style.right = offset + "px";
 });
